@@ -4,5 +4,6 @@ Barcelona".
 """
 from datos import jugadores
 
-lista = [j["nombre"] for j in jugadores if j["equipo"] == ""]
+lista = [j["nombre"] for j in jugadores if "FC Barcelona" in j["equipo"]]
 print(lista)
+
