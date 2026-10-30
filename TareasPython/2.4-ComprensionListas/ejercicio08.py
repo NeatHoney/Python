@@ -9,3 +9,4 @@ print(lista)
 
 lista2 = [(j["nombre"], "Goleador") if j["atributos"]["tiro"] >= 9 else (j["nombre"], "Asistente") for j in jugadores]
 
+# Los parentesis morados es la tupla
